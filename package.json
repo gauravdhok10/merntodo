@@ -2,7 +2,7 @@
   "name": "todo2",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://gauravdhok10.github.io/", 
+  "homepage": "https://gauravdhok10.github.io/merntodo/", 
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",

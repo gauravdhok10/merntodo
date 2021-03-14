@@ -36,7 +36,7 @@ export default function Login() {
           username,
           password,
         });
-        history.push("/");
+        history.push("/merntodo");
       })
       .catch((error) => {
         setError(error.message);
@@ -47,7 +47,7 @@ export default function Login() {
 
   return (
     <div>
-       <h2 className="logo"><Link to="/">ToDOit</Link></h2>
+       <h2 className="logo"><Link to="/merntodo">ToDOit</Link></h2>
       <div className="main">
      
         <div className="left">

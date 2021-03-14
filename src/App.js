@@ -17,7 +17,7 @@ function App() {
        <CredentialsContext.Provider value={credentialsState}>
       <Router>
       <Switch>
-        <Route exact path="/"><Welcome/></Route>
+        <Route exact path="/merntodo"><Welcome/></Route>
         <Route exact path="/register"><Register/></Route>
         <Route exact path="/login"><Login/></Route>
       </Switch>

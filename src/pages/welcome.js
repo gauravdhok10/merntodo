@@ -15,7 +15,7 @@ export default function Welcome() {
         <div className="welcome">
             <nav>
                 <ul>
-                    <li className="logo"><Link to="/">ToDOit</Link></li>
+                    <li className="logo"><Link to="/merntodo">ToDOit</Link></li>
                     <li className="nametag"> {credentails && credentails.username}</li>
                     <li className="logout"> {credentails && <button className="logoutbutton" onClick={logout}>Logout</button>}</li>
                 </ul>
