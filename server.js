@@ -7,7 +7,7 @@ const port = 4000;
 
 //const ObjectId = require("mongoose").Types.ObjectId;
 
-mongoose.connect("process.env.MONGO_URI", {
+mongoose.connect(process.env.MONGO_URI, {
   useUnifiedTopology: true,
   useNewUrlParser: true,
 });
