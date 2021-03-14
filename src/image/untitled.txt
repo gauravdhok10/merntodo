@@ -1,0 +1,92 @@
+<div>
+    <h2 className="logo"><Link to="/">ToDOit</Link></h2>
+    <div className="main">
+   
+      <div className="left">
+    
+      </div>
+      <div className="right">
+        <h1 className="head_log">Sign In</h1>
+        {error && <span style={{ color: "red" }}>{error}</span>}
+      <form onSubmit={register}>
+      <input
+          onChange={(e) => setUsername(e.target.value)}
+          placeholder="Username"
+        />
+        <br />
+        <input
+          type="password"
+          onChange={(e) => setPassword(e.target.value)}
+          placeholder="Password"
+        />
+        <br />
+        <button type="submit">Register</button>
+      </form>
+      <div className="down">
+          <hr />
+          <button className="register1"> <Link className="register" to="/register">Want to Create Account</Link></button>
+          <br /><br /><br />
+          TODO app <br />
+          A MERN REACT Web App <br />
+          @gauravdhok
+        </div>
+        
+        </div>
+        </div>
+     
+    </div>
+    
+    
+    
+    //
+    .home {
+    display: flex;
+}
+
+.homeright {
+    background-image:url('../image/home.jpg');
+    width: 100vw;
+    height: 90vh;
+    padding-top: 5rem;  
+    background-size:cover;
+}
+
+.home3 {
+    margin: 0 12rem 0 12rem;
+    background-color: transparent;
+}
+.home3 h2 {
+    font-style: italic;
+    text-align: center;
+    background-color: transparent;
+    margin-bottom: 1rem;
+}
+.home1 {
+    margin-top: 50px;
+}
+.h {
+    background-image: linear-gradient( 135deg, #F05F57 10%, #360940 100%);
+    box-shadow: 9px 8px 9px 8px rgba(50, 50, 50, 0.75);
+}
+.home1,
+.home2 {
+    background-color: #a6e8df;
+    padding: 2rem  2rem 2rem 6rem;
+    margin-left: 35rem;
+    margin-right: 35rem;   
+   
+}
+.home2 {
+    padding-left: 6.5rem;
+}
+.home1 a, .home2 a{
+    background-color: rgb(255, 196, 0);
+    text-decoration: none;
+    color: black;
+}
+
+
+<div className="home3">
+            <h2>Why to use ?</h2>
+          There's nothing wrong with a paper to-do list, but going digital has many benefits. Paper is fine if you enjoy writing by hand, crossing off tasks in ink or pencil, and drawing arrows all over the place when deadlines and priorities change. A to-do list app lets you do all that much more efficiently, dragging and dropping tasks to reorder them, changing a priority or due date with one click, attaching a note to a task with additional thoughts. In many ways, a good to-do app is the ultimate productivity app.
+          </div>

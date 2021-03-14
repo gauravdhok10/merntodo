@@ -1,0 +1,83 @@
+*{
+
+    background-color:rgb(243, 244, 247);
+}
+.logo {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    flex: 1;
+    padding-left: 0.5rem;
+    font-size:2rem;
+}
+.logo a {
+    text-decoration: none;
+    color: black;
+}
+.main {
+    display: flex;
+}
+
+.right {
+    padding-top: 8rem;
+    margin-left: 0.4rem;
+}
+.left {
+    margin:0rem 7rem;
+    display: inline-flex;
+    height : 90vh;
+    width: 45vw;
+    background-image:url('../image/landing.jpg');
+    background-size:cover;
+}
+form {
+    font-size: 0.3rem;
+}
+form input {
+    width: 20rem;
+    padding: 0.5rem;
+    margin: 0.4rem 0;
+    border-radius: 0.2rem;
+    box-shadow: none;
+    background-color: transparent;
+    border: 1.7px solid;
+    color: rgb(101, 103, 104);
+}
+input:focus {
+    outline-color: rgb(0, 0, 235);
+}
+.head_log {
+    font-size: 1.5rem;
+    color: rgb(32, 32, 36);
+}
+.login {
+    margin-top: 1rem;
+    margin-left:auto;
+    margin-right: auto;
+    padding: 0.3rem 1rem;
+    background-color: rgb(0, 255, 145);
+    border: 1.7px solid rgb(86, 108, 114);
+    border-radius: 0.2rem;
+    font-weight: bold;
+    color: rgb(32, 32, 36);
+    box-shadow: 3px 0px 7px 0px rgba(118, 118, 118, 0.75);
+}
+.down {
+    margin-top: 1.5rem;
+}
+button {
+    background-color: transparent;
+}
+.register1 {
+    margin-top: 2rem;
+    padding: 0.3rem 1rem;
+    background-color:rgb(94, 133, 255);
+    border: 1.7px solid rgb(86, 108, 114);
+    border-radius: 0.2rem;
+    font-weight: bold;
+    
+}
+.register {
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+}

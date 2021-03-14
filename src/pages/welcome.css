@@ -1,0 +1,94 @@
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    height:60px;
+}
+li {
+    display: inline-flex;
+}
+.logo {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    flex: 1;
+    padding-left: 0.5rem;
+    font-size:2rem;
+}
+.logo a {
+    text-decoration: none;
+    color: black;
+}
+.nametag {
+    padding-top: 1rem;
+    padding-right: 1rem;
+}
+.logout {
+    padding-top: 0.5rem;
+    padding-right: 1rem;
+}
+.logoutbutton {
+    background-color:red ;
+    text-align: center;
+    height: 2rem;
+    width: 4rem;
+    border-radius: 3px;
+    border-style: none;
+    box-shadow: 0px 0px 2px 1px rgb(82, 82, 82);
+}
+.home {
+    display: flex;
+}
+
+.homeright {
+    background-image:url('../image/home.jpg');
+    width: 100vw;
+    height: 90vh;
+    padding-top: 1.5rem;  
+    background-size:cover;
+}
+
+.home3 {
+    margin: 0 12rem 0 12rem;
+    background-color: transparent;
+}
+.home3 h2 {
+    font-style: italic;
+    text-align: center;
+    background-color: transparent;
+    margin-bottom: 1rem;
+}
+.home1 {
+    margin-top: 50px;
+}
+.h {
+    background-image: linear-gradient( 135deg, #F05F57 10%, #360940 100%);
+    box-shadow: 9px 8px 9px 8px rgba(50, 50, 50, 0.75);
+}
+.home1,
+.home2 {
+    background-color: #a6e8df;
+    padding: 2rem  2rem 2rem 6rem;
+    margin-left: 35rem;
+    margin-right: 35rem;   
+   
+}
+.home2 {
+    padding-left: 6.5rem;
+}
+.home1 a, .home2 a{
+    background-color: rgb(255, 196, 0);
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    background-color: transparent;
+    position: absolute;
+    top: 97%;
+    font-size: 0.7rem;
+}
+footer a{
+    text-decoration: none;
+
+}

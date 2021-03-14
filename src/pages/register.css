@@ -1,0 +1,9 @@
+
+.left1 {
+    margin:0rem 7rem;
+    display: inline-flex;
+    height : 90vh;
+    width: 45vw;
+    background-image:url('../image/register.jpg');
+    background-size:cover;
+}

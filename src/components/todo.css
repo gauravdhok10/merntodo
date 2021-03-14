@@ -1,0 +1,69 @@
+.todo {
+    margin-left:20rem;
+    margin-right:5rem;
+    margin-top: 0.5rem;
+    background-color: transparent;
+}
+.todo_select {
+    background-color: transparent;
+}
+
+.todo select {
+    padding: 8px 8rem 8px 2px;
+    border: 1.5px solid black ;
+}
+.main_todo {
+    max-width: 60rem;
+    margin-right: 20rem;
+    height:60vh;
+    min-height: 60vh;
+}
+.todo_item {
+   display: flex;
+   justify-content: space-between;
+   margin: 0.5rem;
+   padding: 0.7rem;
+   border-style:ridge;
+   border-bottom: 1px  rgb(97, 96, 96);
+}
+.todo_item input {
+    margin-top: 0.2rem;
+    margin-right: 1.5rem;
+}
+.todo_item label {
+    flex: 1;
+    font: 1.1em sans-serif;
+    margin-right: 1.5rem;
+}
+.todo_item button {
+    border-style: none;
+    background-color: rgb(255, 130, 108);
+    padding: 0.2rem 0.2rem;
+    font-size: 0.6rem;
+}
+.add_new {
+    position: absolute;
+    top: 80vh;
+    padding: 5px;
+    background-color: transparent;
+}
+.add_new input {
+    width:20rem;
+    margin-right: 2rem;
+    color: black;
+}
+.add_new button {
+    border-style: none;
+    background-color: greenyellow;
+    padding: 0.5rem 1rem;
+    border-radius: 2px;
+}
+.main_todo {
+    overflow-y: scroll;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+}
+.main_todo::-webkit-scrollbar { /* WebKit */
+    width: 0;
+    height: 0;
+}
