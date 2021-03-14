@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.9aedce5d.chunk.css",
-    "main.js": "/static/js/main.f3765f33.chunk.js",
-    "main.js.map": "/static/js/main.f3765f33.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.575e2ed9.js",
-    "runtime-main.js.map": "/static/js/runtime-main.575e2ed9.js.map",
-    "static/js/2.5ea12996.chunk.js": "/static/js/2.5ea12996.chunk.js",
-    "static/js/2.5ea12996.chunk.js.map": "/static/js/2.5ea12996.chunk.js.map",
-    "static/js/3.28a8fa8d.chunk.js": "/static/js/3.28a8fa8d.chunk.js",
-    "static/js/3.28a8fa8d.chunk.js.map": "/static/js/3.28a8fa8d.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.9aedce5d.chunk.css.map": "/static/css/main.9aedce5d.chunk.css.map",
-    "static/js/2.5ea12996.chunk.js.LICENSE.txt": "/static/js/2.5ea12996.chunk.js.LICENSE.txt",
-    "static/media/welcome.css": "/static/media/home.dc25e6b5.jpg",
-    "static/media/login.css": "/static/media/landing.113b24bf.jpg",
-    "static/media/register.css": "/static/media/register.81a2cdd9.jpg"
+    "main.css": "/merntodo/static/css/main.1a41efe0.chunk.css",
+    "main.js": "/merntodo/static/js/main.ca7d57d6.chunk.js",
+    "main.js.map": "/merntodo/static/js/main.ca7d57d6.chunk.js.map",
+    "runtime-main.js": "/merntodo/static/js/runtime-main.e6aefadf.js",
+    "runtime-main.js.map": "/merntodo/static/js/runtime-main.e6aefadf.js.map",
+    "static/js/2.5ea12996.chunk.js": "/merntodo/static/js/2.5ea12996.chunk.js",
+    "static/js/2.5ea12996.chunk.js.map": "/merntodo/static/js/2.5ea12996.chunk.js.map",
+    "static/js/3.28a8fa8d.chunk.js": "/merntodo/static/js/3.28a8fa8d.chunk.js",
+    "static/js/3.28a8fa8d.chunk.js.map": "/merntodo/static/js/3.28a8fa8d.chunk.js.map",
+    "index.html": "/merntodo/index.html",
+    "static/css/main.1a41efe0.chunk.css.map": "/merntodo/static/css/main.1a41efe0.chunk.css.map",
+    "static/js/2.5ea12996.chunk.js.LICENSE.txt": "/merntodo/static/js/2.5ea12996.chunk.js.LICENSE.txt",
+    "static/media/welcome.css": "/merntodo/static/media/home.dc25e6b5.jpg",
+    "static/media/login.css": "/merntodo/static/media/landing.113b24bf.jpg",
+    "static/media/register.css": "/merntodo/static/media/register.81a2cdd9.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.575e2ed9.js",
+    "static/js/runtime-main.e6aefadf.js",
     "static/js/2.5ea12996.chunk.js",
-    "static/css/main.9aedce5d.chunk.css",
-    "static/js/main.f3765f33.chunk.js"
+    "static/css/main.1a41efe0.chunk.css",
+    "static/js/main.ca7d57d6.chunk.js"
   ]
 }
