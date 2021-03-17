@@ -35,7 +35,7 @@ export default function Welcome() {
           <div className="home2">
           <Link to="/login">Login</Link>
           </div>
-          <footer>GitHub : <a href="github.com/gauravdhok10/">@gauravdhok10</a></footer>
+          <footer>GitHub : <a href="www.github.com/gauravdhok10/">@gauravdhok10</a></footer>
           </div>}
           {credentails && <Todos />}
           
