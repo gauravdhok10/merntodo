@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/merntodo/static/css/main.1a41efe0.chunk.css",
-    "main.js": "/merntodo/static/js/main.ca7d57d6.chunk.js",
-    "main.js.map": "/merntodo/static/js/main.ca7d57d6.chunk.js.map",
+    "main.js": "/merntodo/static/js/main.16e3680d.chunk.js",
+    "main.js.map": "/merntodo/static/js/main.16e3680d.chunk.js.map",
     "runtime-main.js": "/merntodo/static/js/runtime-main.e6aefadf.js",
     "runtime-main.js.map": "/merntodo/static/js/runtime-main.e6aefadf.js.map",
     "static/js/2.5ea12996.chunk.js": "/merntodo/static/js/2.5ea12996.chunk.js",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.e6aefadf.js",
     "static/js/2.5ea12996.chunk.js",
     "static/css/main.1a41efe0.chunk.css",
-    "static/js/main.ca7d57d6.chunk.js"
+    "static/js/main.16e3680d.chunk.js"
   ]
 }
